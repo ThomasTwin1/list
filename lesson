@@ -1,0 +1,62 @@
+### What is a List?
+
+# A list in Python is a collection of items enclosed in square brackets (`[]`), organized in a specific order.
+# Lists can contain items of various types, including:
+# - Numbers
+# - Strings
+# - Booleans
+# - Variables
+# - Functions
+# - Any other data type
+
+# **Example**:
+# ```python
+# example_list = [1, "one", True]
+# ```
+#
+# ---
+
+### Why Use a List?
+
+# When you want to store and access multiple related items,
+# it's best practice to create a list and assign it to a variable. '
+# 'This allows easy access to each item.
+
+# **Example**:
+# ```python
+fruits = ["peach", "apple", "orange", "pear"]
+# ```
+
+# ---
+
+### Accessing Items in a List
+
+# In this course, we’ll refer to list entries as *items*.
+# To access items in a list, use their *index*, which is their position in the list.
+# Python lists are zero-indexed, meaning the first item is at position `0`, the second item is at `1`, and so on.
+
+# **Example**:
+# ```python
+fruits = ["peach", "apple", "orange", "pear"]
+
+# Accessing the first item
+print(fruits[0])  # Output: peach
+# ```
+
+# In this example, `fruits[0]` retrieves the item at index `0`, which is `"peach"`.
+
+# ---
+
+### Applying String Methods to List Items
+
+# You can apply string methods directly to items in a list.
+
+# **Example**:
+# ```python
+fruits = ["peach", "apple", "orange", "pear"]
+
+# Convert the first item to uppercase
+print(fruits[0].upper())  # Output: PEACH
+# ```
+
+# In this example, `upper()` changes `"peach"` to uppercase.
