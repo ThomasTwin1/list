@@ -1,0 +1,31 @@
+Here are some practice questions based on the code and concepts of zero-based indexing in lists:
+
+### Practice Questions
+
+#### 1. Basic Understanding
+1. **What is the index of the first element in a list in Python?**
+2. **Why do programming languages like Python use zero-based indexing instead of one-based indexing?**
+
+#### 2. Memory Address Calculations
+3. **If a list `arr = [5, 10, 15, 20]` starts at memory address `2000`, what are the memory addresses of each element? Show your calculations.**
+
+4. **Given the starting address `1500` and a size of each element as `8` bytes, what is the memory address of the element at index `3` in an array?**
+
+#### 3. Accessing List Elements
+5. **Using the list `fruits = ["apple", "banana", "cherry", "date"]`, write a Python statement to print the second element in the list. What will be printed?**
+
+6. **Given the list `colors = ["red", "blue", "green", "yellow"]`, what will `colors[-1]` return? Explain how negative indexing works.**
+
+#### 4. Using Values from Lists
+7. **Using the list `cities = ["New York", "Los Angeles", "Chicago", "Houston"]`, write a Python statement that uses an f-string to print: "I live in [city]." for the third element in the list.**
+
+8. **Write two different print statements using the list `countries = ["USA", "Canada", "Mexico"]` to print: "I am from USA." using both indexing methods.**
+
+#### 5. Conceptual Questions
+9. **Explain why starting the index at `0` simplifies memory addressing and access calculations. Provide a comparison to what would happen if indexing started at `1`.**
+
+10. **What are the advantages of using negative indexing in lists? Provide an example to illustrate your answer.**
+
+### Answers
+
+These questions cover a range of topics from basic understanding to memory calculations, access methods, and conceptual explanations, allowing for practice and assessment of knowledge regarding zero-based indexing and list manipulation in Python.
