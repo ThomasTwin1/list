@@ -1,0 +1,49 @@
+# Understanding Zero-Based Indexing in Lists
+# In Python and many other programming languages, the first item in a list is at position 0.
+# This is important because accessing data at position 1 requires an additional computation step.
+# Let's break down the reasons for using zero-based indexing.
+
+# 1. How Lists Work in Memory
+# When you create a list, such as `list = [10, 20, 30]`, the computer stores these elements in consecutive memory locations.
+# Each element in this list typically takes up 4 bytes of memory.
+# If the list starts at memory address 1000, the elements are stored as follows:
+
+# - `list[0]` (10) is at address 1000
+# - `list[1]` (20) is at address 1004
+# - `list[2]` (30) is at address 1008
+
+# Each element is accessed by calculating an offset from the starting address.
+
+# 2. Calculating the Offset with Indexing
+# To access any element, the computer uses the following formula:
+# memory_address_of_element = starting_address + (index * size_of_each_element)
+
+# Example calculations:
+starting_address = 1000
+size_of_element = 4
+
+# Accessing elements:
+address_first = starting_address + (0 * size_of_element)  # 1000
+address_second = starting_address + (1 * size_of_element)  # 1004
+address_third = starting_address + (2 * size_of_element)   # 1008
+
+# Using zero as the first index means the first element is at index 0 with no additional offset.
+# This makes calculations simple:
+# - For the first element: no offset is needed (1000).
+# - For the second element: an offset of 4 is added (1004).
+# This simplicity avoids unnecessary computations.
+
+# Using Negative Indexing
+# Negative indexing allows access to list elements starting from the end.
+# For example:
+names = ["rod", "tiera", "kai", "kairo", "kaila"]
+print(names[-2])  # Accesses the second to last element: "kairo"
+# -1 accesses the last element of the list, while -2 accesses the second to last, and so forth.
+
+# Using Values from a List
+# You can use a list's value similarly to a variable. For example:
+states = ["texas", "georgia", "florida", "alabama", "ohio"]
+print(f"Hello fellow Texan. Are you really from {states[0]}?")
+print("Hello fellow Texan. Are you really from " + states[0] + "?")
+
+# This shows two different ways to print a message using the same list element.
