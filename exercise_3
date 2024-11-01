@@ -1,0 +1,31 @@
+# How would you define a list that contains numbers, strings, and booleans?
+
+cars = [1, "toyota", True]
+print(cars)
+
+# Why would you use a list instead of individual variables for related items?
+# Answer: so you can access them from one place
+
+# How can you access the second item in a list called fruits that contains the items ["peach", "apple", "orange", "pear"]?
+fruit = ["peach", "apple", "orange", "pear"]
+print(fruit[-2])
+
+# What does zero-indexed mean in the context of lists in Python?
+# Answer; It means the first item in a list always starts with position 0
+
+# If fruits = ["peach", "apple", "orange", "pear"], what does fruits[3] return?
+# Answer: pear
+
+# How can you convert an item in a list to uppercase using string methods?
+fruit = ["peach", "apple", "orange", "pear"]
+print(fruit[0].upper())
+
+# Give an example of a list in Python and access the last item in that list.
+fruit = ["peach", "apple", "orange", "pear"]
+print(fruit[-1])
+
+# If example_list = [1, "one", True], what will example_list[1] return?
+# Answer:[1, "one", True]
+example_list = [1, "one", True]
+print(example_list)
+
