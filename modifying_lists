@@ -1,0 +1,24 @@
+# Modifying Lists
+# If you want modify items from a list use the following examples:
+
+# Swap item information
+
+cakes = ["vanilla", "pound", "marble"]
+
+cakes[0] = "chocolate"
+
+print(cakes)
+
+# Add item to list:
+cakes = ["vanilla", "pound", "marble"]
+cakes.append("chocolate")
+cakes.append("short")
+cakes.append("carrot")
+print(cakes)
+# The append method adds an item to the end of a list without changing it.
+
+# Insert Method
+cakes = ["vanilla", "pound", "marble"]
+cakes.insert(3, "ice cream")
+print(cakes)
+# The insert method adds an item to any desired position in the list
