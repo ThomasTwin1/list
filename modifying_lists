@@ -19,6 +19,24 @@ print(cakes)
 
 # Insert Method
 cakes = ["vanilla", "pound", "marble"]
-cakes.insert(3, "ice cream")
+cakes.insert(2, "ice cream")
 print(cakes)
 # The insert method adds an item to any desired position in the list
+
+# Remove item from list
+cakes = ["vanilla", "pound", "marble"]
+del cakes[0]
+print(cakes)
+# The del statement removes an item at any desired position.
+# You no longer have access to the value after you use the del statement.
+
+# The pop method can be used to remove an item from the end of a list, but access it later.
+cakes = ["vanilla", "pound", "marble"]
+cakes_popped = cakes.pop()
+print("I really like " + cakes_popped + " cake.")
+
+# You can also choose a position to pop
+cakes = ["vanilla", "pound", "marble"]
+cakes_popped = cakes.pop(1)
+print(cakes_popped)
+
