@@ -1,0 +1,102 @@
+# 1. Swapping Items in a List
+# Given the following list:
+# Swap the positions of "apple" and "cherry".
+# Print the modified list.
+fruits = ["apple", "banana", "cherry"]
+fruits = ["cherry", "banana", "apple"]
+print(fruits)
+
+# 2. Adding Items to a List
+# You have a list of animals:
+
+animals = ["dog", "cat", "rabbit"]
+animals.append("hamster")
+animals.append("parrot")
+animals.append("fish")
+print(animals)
+# Add "hamster", "parrot", and "fish" to the list using the append() method.
+# Print the modified list.
+
+# 3. Inserting an Item in the List
+# You have the following list:
+# Insert "purple" at the 2nd position in the list (index 1).
+# Print the modified list.
+colors = ["red", "green", "blue", "yellow"]
+colors.insert(1, "purple")
+print(colors)
+
+# 4. Removing an Item Using del
+# Consider the following list:
+#Remove the 3rd item (index 2) from the list using the del statement.
+# Print the modified list.
+books = ["To Kill a Mockingbird", "1984", "Moby Dick", "The Great Gatsby"]
+del books[2]
+print(books)
+
+# 5. Using the pop() Method
+# Given this list:
+# Use the pop() method to remove and store the last item in the list.
+# Print the modified list.
+# Also, print the item that was popped out.animals.append()
+vehicles = ["car", "bike", "truck", "plane"]
+vehicles_popped = vehicles.pop(3)
+print(vehicles)
+print(vehicles_popped)
+
+# 6. Pop an Item from a Specific Index
+# Starting with the list:
+# Use the pop() method to remove and store the item at index 1 (i.e., "Bob").
+# Print the modified list.
+# Print the item that was popped.
+students = ["Alice", "Bob", "Charlie", "David"]
+students_popped = students.pop(1)
+print(students)
+print(students_popped)
+
+# 7. Reassigning a List Item
+# Given the list:
+# Change "Canada" to "Argentina".
+# Print the modified list.
+countries = ["USA", "Canada", "Mexico", "Brazil"]
+countries = ["USA", "Argentina", "Mexico", "Brazil"]
+print(countries)
+
+# 8. Combining Multiple Modifications
+# Start with the list:
+# Insert "orchid" at position 1.
+# Append "lily", "sunflower", and "lavender".
+# Remove the last item.
+# Print the final list.
+flowers = ["rose", "tulip", "daisy"]
+flowers.insert(1, "orchid")
+flowers.append("lily")
+flowers.append("sunflower")
+flowers.append("lavender")
+flowers_popped = flowers.pop()
+print(flowers)
+print(flowers_popped)
+
+
+# 9. Handling Index Errors
+# What will happen if you try to pop an item from an empty list? Write a code that handles this situation and prints an appropriate message.
+
+item_list = []
+
+try:
+    items_list_popped = item_list.pop()
+    print(items_list_popped)
+except IndexError:
+    print("Error: Can not pop item from empty list")
+
+print("Current list:", item_list)
+
+
+# 10. Practice with Negative Indexing
+# Given the list:
+# Use negative indexing to swap "pie" and "cookies".
+# Print the modified list.
+desserts = ["ice cream", "pie", "cake", "cookies"]
+desserts[-3], desserts[-1] = desserts[-1], desserts[-3]
+print (desserts)
+
+
