@@ -1,0 +1,17 @@
+# Sort Method
+# Alphabetizes your list in order A-Z
+body_parts = ["head", "shoulder", "knees", "toes"]
+body_parts.sort()
+print(body_parts)
+
+# Reverse Sort Method.
+# Reverse the order of the list
+body_parts = ["head", "shoulder", "knees", "toes"]
+body_parts.sort(reverse=True)
+print(body_parts)
+
+# Sorted Function.
+# Allows variable list to only be affected while printed.
+body_parts = ["head", "shoulder", "knees", "toes"]
+print(sorted(body_parts))
+print(body_parts)
