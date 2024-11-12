@@ -1,0 +1,23 @@
+# Adding List to List
+empty_list = ["lemon"]
+colors = ["red", "green", "orange", "blue"]
+
+# adds colors to empty list
+empty_list.extend(colors)
+empty_list.append("violet")
+print(empty_list)
+
+
+# Adding List in Any Position
+main_list = [1, 2, 3, 7, 8, 9]
+
+# List to be inserted
+extended_list = ['a', 'b', 'c']
+
+# Position at which to insert the extended list
+position = 3
+
+# Inserting the extended list at the specified position
+main_list[position:position] = extended_list
+
+print(main_list)
