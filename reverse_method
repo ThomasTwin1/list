@@ -1,0 +1,6 @@
+# Reverse Method
+body_parts = ["head", "shoulder", "knees", "toes"]
+body_parts.reverse()
+print(body_parts)
+
+
