@@ -1,0 +1,19 @@
+
+
+
+# Len Function
+# Finds amount of items in list
+body_parts = ["head", "shoulder", "knees", "toes"]
+print(len(body_parts))
+
+
+# Join method combines a designated string with a variable that contains a list. 
+
+# Join method in print statement
+dream_places = ["Japan", "China", "Bahamas", "South Korea", "Philippines"]
+print(f"There are {len(dream_places)} places I would like to visit: {', '.join(dream_places[:-1])} and the {dream_places[-1]}")
+
+# Join Method in variable
+dream_places = ["Japan", "China", "Bahamas", "South Korea", "Philippines"]
+join_dream_places = ", ".join(dream_places[:-1]) + " and the " + dream_places[-1]
+print(f"There are {len(dream_places)} places I would like to visit: {join_dream_places}")
