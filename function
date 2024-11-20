@@ -1,0 +1,5 @@
+# List Function
+# The list function will turn what's inside it into a list
+numbers = list(range(1,6))
+print(numbers)
+
