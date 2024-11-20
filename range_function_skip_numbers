@@ -1,0 +1,5 @@
+# Range Function to skip numbers
+# The third number in the range function will add 2 to the list starting from the number 2
+numbers = list(range(2,11,2))
+print(numbers) # output: [2, 4, 6, 8, 10]
+
