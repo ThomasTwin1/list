@@ -47,3 +47,32 @@ print(f"Hello fellow Texan. Are you really from {states[0]}?")
 print("Hello fellow Texan. Are you really from " + states[0] + "?")
 
 # This shows two different ways to print a message using the same list element.
+
+# Finding index and value
+# Example: Find the index of an item
+my_list = ['apple', 'banana', 'cherry', 'date']
+item = 'banana'
+index = my_list.index(item)
+print(index)  # Output: 1
+
+# Example 2
+seasonings = ['pepper','salt','paprika','cilantro','garlic salt','cumin']
+item = 'cumin'
+index = seasonings.index(item)
+print(index)    # Output: 5
+
+# Example: Find the item of an index
+my_list = ['apple', 'banana', 'cherry', 'date']
+index = 2
+item = my_list[index]
+print(item)  # Output: cherry
+
+
+# Example Error Handling: Get the item at a specific index
+my_list = ['apple', 'banana', 'cherry', 'date']
+index = 5
+if 0 <= index < len(my_list):
+    item = my_list[index]
+    print(f"The item at index {index} is {item}")
+else:
+    print("Item not found")
