@@ -1,0 +1,14 @@
+# Copying a list
+# You can copy a list by omitting the first and second index ([:]). This is called a shallow copy
+# Here is an example:
+my_fruits = ["apple","pear","orange","banana","pear"]
+friend_fruits = my_fruits[:]
+print(f"My friend's favorite fruits are " + ", ".join(friend_fruits))
+# Output: My friend's favorite fruits are apple, pear, orange, banana, pear
+
+my_fruits = ["apple","pear","orange","banana","pear"]
+friend_fruits = my_fruits[:]
+print(f"My friend's favorite fruits are {', '.join(friend_fruits)}")
+# Output: My friend's favorite fruits are apple, pear, orange, banana, pear
+
+# In this example we copied the list from my_fruits and stored it in friend_fruit with the shallow copy
