@@ -1,0 +1,28 @@
+# Simple Statistics with List
+# Min function shows the smallest number within a list
+digits = [1,2,3,4,5,6,7,8,9,0]
+print(min(digits)) # Output: 0
+
+# You can assign a variable to the min method for later use.
+digits = [1,2,3,4,5,6,7,8,9,0]
+min_digits = min(digits)
+print(min_digits) # Output: 0
+
+# Max function shows the largest number within a list
+digits = [1,2,3,4,5,6,7,8,9,0]
+print(max(digits)) # Output: 9
+
+# You can assign a variable to the max method for later use.
+digits = [1,2,3,4,5,6,7,8,9,0]
+max_digits = max(digits)
+print(max_digits) # Output: 9
+
+# Sum function adds the numbers in a list together
+digits = [1,2,3,4,5,6,7,8,9,0]
+print(max(digits)) # Output: 45
+
+# Sum function shows the sum of the list
+# You can assign a variable to the sum method for later use.
+digits = [1,2,3,4,5,6,7,8,9,0]
+sum_digits = sum(digits)
+print(sum_digits) # Output: 45
